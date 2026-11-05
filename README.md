@@ -1,3 +1,5 @@
+[![Hono CI](https://github.com/yngdev42/hono-api/actions/workflows/pipeline.yml/badge.svg)](https://github.com/yngdev42/hono-api/actions/workflows/pipeline.yml)
+
 # Tasks CRUD API (Minimalista)
 
 API REST minimalista de tareas construida con [Hono](https://hono.dev/) pensada para pruebas unitarias y pipelines de CI/CD.
