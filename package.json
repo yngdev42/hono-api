@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings",
     "test": "node --test"
   },
@@ -12,6 +14,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "oxlint": "^1.91.0",
     "wrangler": "^4.110.0"
   }
 }
