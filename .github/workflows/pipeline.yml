@@ -18,6 +18,10 @@ jobs:
           node-version: 26.13.0
           package-manager-cache: false
       - name: Install dependencies
-        run: npm install
+        run: npm ci --omit=dev
       - name: Lint
         run: npm run lint
+      - name: Build
+        run: npm run build
+      - name: Test
+        run: npm test
