@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
+    "build": "wrangler build",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings",
